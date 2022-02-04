@@ -1,0 +1,44 @@
+.show {
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  color: blue;
+}
+
+.close {
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  color: #00000099;
+}
+
+.delete {
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  color: red;
+}
+
+.update {
+  border: none;
+  cursor: pointer;
+  background: transparent;
+  color: orange;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 350px;
+}
+
+@media screen and (min-width: 992px) {
+  .form-container {
+    width: 350px;
+    flex-shrink: 0;
+  }
+}

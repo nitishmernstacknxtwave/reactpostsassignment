@@ -1,0 +1,17 @@
+.users-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  background-image: url('https://png.pngtree.com/back_origin_pic/04/48/50/84cd2a9fbc6cbd5522b2f048a56703a8.jpg');
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+}
+/* 
+@media screen and (max-width: 576px) {
+  .users-container {
+    flex-direction: column;
+  }
+} */
